@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Popup MOdal Box</title>
+    <link rel="stylesheet" href="./style.css">
+<!-- Boxicons CSS -->
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section>
+        <div class="profile">
+            <div class="profile-img">
+                <img src="./PP.jpg" alt="Profile Pic">
+            </div>
+            <span class="name">Nawaraj Bhandari</span>
+            <span class="profession">Frontend Developer</span>
+            <div class="button">
+                <i class='bx bxs-envelope'></i>
+                <button>Hire me</button>
+            </div>
+        </div>
+        <!-- popup box start -->
+        <div class="popup-outer">
+            <div class="popup-box">
+                <i class="bx bx-x close"></i>
+                <div class="profile-text">
+                    <img src="./PP.jpg" alt="profile pic">
+                    <div class="text">
+                    <span class="name">Nawaraj Bhandari</span>
+                    <span class="profession">Frontend Developer</span>
+                    </div>
+                </div>
+                <form action="#">
+                    <textarea placeholder="Enter your message "></textarea>
+                        <div class="button">
+                            <button class="cancel">Cancel</button>
+                            <button class="send">Send</button>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
