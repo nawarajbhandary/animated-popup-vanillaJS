@@ -19,7 +19,9 @@ section .profile {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  opacity: 0.1;
+}
+section.show .profile {
+  display: none;
 }
 
 section .profile .profile-img {
@@ -80,6 +82,12 @@ section .popup-outer {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  pointer-events: none;
+}
+section.show .popup-outer {
+  opacity: 10;
+  pointer-events: auto;
 }
 section .popup-box {
   position: relative;
