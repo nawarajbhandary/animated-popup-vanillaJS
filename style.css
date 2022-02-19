@@ -28,8 +28,8 @@ section .profile .profile-img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background: #4070f4;
-  padding: 2px;
+  background: #275df1;
+  padding: 3px;
   margin-bottom: 10px;
 }
 .profile .profile-img img {
@@ -37,13 +37,18 @@ section .profile .profile-img {
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid rgb(255, 255, 255);
 }
-.profile .name,
+
 .profile .profession {
   font-size: 18px;
   font-weight: 500;
   color: #333;
+}
+.profile .name {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: solid;
 }
 .profile .profession {
   font-weight: 400;
@@ -53,13 +58,13 @@ section .profile .profile-img {
   display: flex;
   align-items: center;
   padding: 12px 20px;
-  background: #4070f4;
+  background: #25b346;
   margin-top: 15px;
   border-radius: 6px;
   cursor: pointer;
 }
 .profile .button:hover {
-  background: #275df1;
+  background: #0fac34;
 }
 .profile .button i {
   color: #fff;
@@ -108,6 +113,12 @@ section .popup-box {
 }
 .popup-box .close:hover {
   color: #333;
+  background: red;
+  opacity: 0.3;
+  scale: 0.97;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
 }
 section .popup-box .profile-text {
   display: flex;
